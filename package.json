@@ -3,6 +3,7 @@
   "packageManager": "bun@1.1.33",
   "private": true,
   "scripts": {
+    "dev": "turbo run dev",
     "check-types": "turbo run check-types"
   },
   "workspaces": ["apps/*", "packages/*"],
