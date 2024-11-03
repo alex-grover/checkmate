@@ -5,6 +5,7 @@
   "workspaces": ["apps/*", "packages/*"],
   "devDependencies": {
     "@alex-grover/biome-config": "^0.0.3",
-    "@biomejs/biome": "1.9.4"
+    "@biomejs/biome": "1.9.4",
+    "lefthook": "^1.8.2"
   }
 }
