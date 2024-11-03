@@ -1,0 +1,6 @@
+{
+  "name": "checkmate",
+  "packageManager": "bun@1.1.33",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"]
+}
