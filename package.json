@@ -2,10 +2,14 @@
   "name": "checkmate",
   "packageManager": "bun@1.1.33",
   "private": true,
+  "scripts": {
+    "check-types": "turbo run check-types"
+  },
   "workspaces": ["apps/*", "packages/*"],
   "devDependencies": {
     "@alex-grover/biome-config": "^0.0.3",
     "@biomejs/biome": "1.9.4",
-    "lefthook": "^1.8.2"
+    "lefthook": "^1.8.2",
+    "turbo": "^2.2.3"
   }
 }
